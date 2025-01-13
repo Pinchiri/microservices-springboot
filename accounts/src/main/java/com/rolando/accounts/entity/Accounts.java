@@ -3,8 +3,13 @@ package com.rolando.accounts.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+
+@Getter
+@Setter
+@ToString
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
-@Getter @Setter @ToString @AllArgsConstructor @NoArgsConstructor
 public class Accounts extends BaseEntity {
     @Id
     private Long accountNumber;
