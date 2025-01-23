@@ -14,8 +14,6 @@ import com.rolando.accounts.repository.CustomerRepository;
 import com.rolando.accounts.service.IAccountsService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-
-import java.lang.module.ResolutionException;
 import java.time.LocalDateTime;
 import java.util.Optional;
 import java.util.Random;
